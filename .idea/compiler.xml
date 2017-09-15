@@ -9,8 +9,8 @@
         <module name="CourierRobot" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="CourierRobot" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="CourierRobot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
