@@ -1,5 +1,4 @@
-CourierRobot :: SMTP Client Automate
-=================================
+# CourierRobot :: A SMTP Client Automated
 Authors: Loan Lassalle and Tano Iannetta 
 
 
@@ -8,14 +7,12 @@ It choose emails addresses and contents randomly and created emails to make a jo
 It also allows you to send another type of message by modifying class files
 
 
-Requirements
-============
+## Requirements
 
 CourierRobot is built using Java and to function you need a Java 8 runtime environment. CourierRobot works on OSX, Windows and *nix based platforms that have a Java 8 runtime environment. You can download the Java 7 runtime environment [here](http://www.oracle.com/technetwork/java/javase/downloads/java-se-jre-7-download-432155.html).
 
 
-Installation / setup
-====================
+## Installation / setup
 
 The easiest way to install and run CourierRobot is by downloading the jar file [here](https://github.com/lassalleloan/CourierRobot/raw/master/out/artifacts/CourierRobot_jar/CourierRobot.jar?raw=true) (right click -> "save target as"). Extract it to any place you like and start the server by running: java -jar CourierRobot.jar
 
@@ -24,8 +21,7 @@ If you want to change the settings of the server to contact, you must change the
 You are be able to defines a list of emails addresses and emails contents in the emailsAddresses file and emailsContents.
 
 
-Installation / setup Mock SMTP server
--------------------------------------
+### Installation / setup Mock SMTP server
 
 A Mock SMTP server allows you to test if outgoing emails are sent (without actually sending them) and to see what they look like. Often, it provides an interface that displays which emails were sent and shows you what the contents of those emails are. If you use it you can be sure that your outgoing emails will not reach customers or users by accident.Often, It really just a mock SMTP server and has no email sending functionality.
 
