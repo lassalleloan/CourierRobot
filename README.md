@@ -14,7 +14,7 @@ CourierRobot is built using Java and to function you need a Java 8 runtime envir
 
 ## Installation / setup
 
-The easiest way to install and run CourierRobot is by downloading the jar file [here](https://github.com/lassalleloan/CourierRobot/raw/master/out/artifacts/CourierRobot_jar/CourierRobot.jar?raw=true) (right click -> "save target as"). Extract it to any place you like and start the server by running: java -jar CourierRobot.jar
+The easiest way to install and run CourierRobot is by downloading the jar file [here](https://github.com/lassalleloan/courier-robot/raw/master/out/artifacts/CourierRobot_jar/CourierRobot.jar?raw=true) (right click -> "save target as"). Extract it to any place you like and start the server by running: java -jar CourierRobot.jar
 
 This will run CourierRobot on server address localhost (default address Mock SMTP server) and server port 2525 (default port Mock SMTP server).
 If you want to change the settings of the server to contact, you must change the values in config.properties.
